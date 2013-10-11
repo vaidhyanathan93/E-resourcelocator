@@ -1,0 +1,33 @@
+ a.tooltip_large {
+ text-decoration:none;
+ outline:none; 
+ }
+a.tooltip_large strong 
+{
+color:#000000;
+}
+a.tooltip_large:hover
+{text-decoration:none;
+} 
+a.tooltip_large span {
+    z-index:10;
+	display:none; 
+	padding:15px 20px;
+	margin-top:5px;
+    margin-left:-10px;
+    width:300px;
+    line-height:40px;
+}
+a.tooltip_large:hover span
+{
+	display:inline;
+	position:absolute;
+	border:0px solid #FFF;
+	color:#0F4F75;
+	font-family:"Segoe UI";
+	font-size:18px;
+	
+	font-weight:lighter;
+	background:#F1FAFE repeat-x 0 0;
+}
+

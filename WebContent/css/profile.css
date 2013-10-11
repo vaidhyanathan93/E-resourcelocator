@@ -1,0 +1,119 @@
+div		{
+	border-radius:2px;
+}
+
+table	{
+	width:450px;	
+}
+
+#Body	{
+	width:1000px;
+	height:1060px;
+	background-color:#F5F5F5;
+	margin: 0 auto;
+	font-family:"Segoe UI Light";
+}
+
+#NamePhoto	{
+	width:200px;
+	height:500px;
+	background-color:white;
+	margin: 10px 7.5px 10px 10px;
+	
+	float:left;
+	
+}
+
+#OtherDetails	{
+	margin:10px 7.5px 10px 5px ;
+	width:500px;
+	height:400px;
+	background-color:white;
+	float:left;
+}
+
+#FolloweesList	{
+	width:250px;
+	background-color:white;
+	height:500px;
+	margin:10px 10px 10px 5px;
+	float:left;
+}
+
+#FolloweeName	{
+	width:240px;
+	background-color:white;
+	height:30px;
+	margin: 5px 5px 5px 5px;	
+}
+
+#DocumentsList , #ForumsList	{
+	width:980px;
+	height:auto;
+	background-color:white;
+	float:left;
+	margin: 5px 10px 5px 10px;
+}
+ #likeddoc,#dislikeddoc {
+	background-color: #FFF;
+	height: 25px;
+	width: auto;
+	border: thin outset #CCC;
+}
+
+#likelist,#dislikelist{
+	width:980px;
+	height:auto;
+	background-color:white;
+	margin-top:5px;
+    	}
+	#likelist
+	{
+		margin-left:10px;
+		
+		float:left;}
+		#dislikelist
+		{
+			margin-right:10px;
+			float:right;}
+#Heading	{
+	width:auto;
+	height:30px;
+	font-size:20px;
+	color:white;
+	padding: 0px 5px;
+	background-color:teal;
+}
+
+#Left	{
+	text-align:right;
+	padding-right:10px;
+	vertical-align:top;
+}
+
+#Right	{
+	text-align:left;
+	padding-left:10px;
+}
+
+#DocList , #ForList{
+	width:inherit;	
+}
+
+th.DocName , td.DocName		{
+	width:600px;
+	border-width:thin;
+	border-style:outset;
+}
+
+th.No , td.No 	{
+	width:150px;
+	border-style:outset;
+	border-width:thin;
+}
+
+th.Date , td.Date	{
+	width:150px;
+	border-style:outset;
+	border-width:thin;
+}

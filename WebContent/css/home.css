@@ -1,0 +1,130 @@
+#profile {
+	background-color: #EAF0F7;
+	height: 360px;
+	width: 600px;
+	margin-left:10px;
+}
+
+.alert_error {
+display: block;
+width: 95%;
+margin: 20px 3% 0 3%;
+margin-top: 20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background: #F3D9D9 url(../images/icn_alert_error.png) no-repeat;
+background-position: 10px 10px;
+border: 1px solid #D20009;
+color: #7B040F;
+padding: 10px 0;
+text-indent: 40px;
+font-size: 14px;}
+
+#profile #post_details {
+	position:absolute;
+	height: 134px;
+	width: 470px;
+}
+#profile #profil_pic_name {
+	height:115px;
+	width:126px;
+}
+#doc_display {
+	font-family: "Times New Roman", Times, serif;
+	height: 1000px;
+	width:730px;
+	background-color:whitesmoke;
+}
+div .name_id {
+	display:inline;
+}
+#like_dislike   {
+	float: right;
+}
+.tooltip_large {
+	text-decoration:none;
+	position:absolute;
+	margin-left:30px;
+	max-width:560px;
+}
+.rdmre {
+	float:right;
+}
+#like_dislike ul li {
+	list-style-type:none;
+	float:right;
+	display:inline;
+	padding:2px;
+}
+#like_dislike ul li a {
+	text-decoration:none;
+	color:#006A35;
+	
+	
+}
+<!--
+This is the style for Side Tables-->
+ 
+ #SideTable {
+	height:300px;
+	width: 250px;
+	background-color:white;
+	float:right;
+}
+#SideTableElement {
+	height:50px;
+	width:250px;
+	background-color:whitesmoke;
+	margin:7px 5px 0px 4px;
+	overflow:none;
+	padding: 2px 0px 2px 2px;
+	border-radius:2px;
+	text-height:font-size;
+	font-size:14px;
+	font-family:"Segoe UI";
+	word-wrap:break-work;
+}
+#SideTableHead {
+	background-color:#1570A6;
+	width:250px;
+	height:35px;
+	text-align:left;
+	text-decoration:none;
+	font-family:"Segoe UI";
+	color:#fff;
+	font-size:20px;
+	margin:10px 0px 0px 4px;
+	padding-left:3px;
+}
+
+#Pagelayout #dyna #dyna_body #body_mnu {
+	height:70px;
+	width: 720px;
+	padding:5px;
+	background-color:white;
+}
+
+.profile_pic	{
+	margin: 5px ;
+	height:100px;
+	width:100px;
+}
+
+a.name {
+	color:#EA4D7B;
+	text-decoration:none;
+	position:relative;
+	font-size:25px;
+	font-weight: bold;
+}
+
+a.name:hover {
+	color:#AF144F;
+}
+
+.Line	{
+	width:auto;
+	height:20px;
+	background-color:white;
+}

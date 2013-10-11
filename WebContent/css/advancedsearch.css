@@ -1,0 +1,12 @@
+#advancedsrch_layout {
+	
+	height: auto;
+	width: 1000px;
+	margin: 0 auto;
+}
+#search_details {
+	font-family: "Segoe UI Light";
+	margin: 0 100px 0 100px;
+	width: 800px;
+	background-color:whitesmoke;
+}

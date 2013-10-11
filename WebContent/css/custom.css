@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+		font: 62.5% "Trebuchet MS", sans-serif;
+	}
+	.demoHeaders {
+		margin-top: 2em;
+	}
+	 
+#mybody{
+	width: 1000px;
+	background-color: #F5F5F5;
+}	 
+.alert_error {
+display: block;
+width: 95%;
+margin: 20px 3% 0 3%;
+margin-top: 20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background: #F3D9D9 url(../images/icn_alert_error.png) no-repeat;
+background-position: 10px 10px;
+border: 1px solid #D20009;
+color: #7B040F;
+padding: 10px 0;
+text-indent: 40px;
+font-size: 14px;}
+	 
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	body,td,th {
+	font-size: 1em;}
+	
+
+#back{
+	background-image:url(images/logo.jpg))}
+.feedbackmaterial
+{
+	width:290px;
+	height:20px;
+	}
+	.feedback{
+
+		vertical-align:central;
+	}
+	table {
+text-align:left;
+}
+select {
+}
+input {
+resize:none;
+}
+textarea {
+	resize:none;
+}
+select {
+	width:290px;
+}
+body {
+	
+	alignment-adjust:central;
+	text-align:center;
+	}
+.booby{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	}
+	.ui-menu { width: 250px; }
+	a {text-decoration:none;
+	
+	
+}
+#fileuploaad{
+	width:500px;
+	}.index_textbox {
+		width:150px;
+		height:25px;
+		
+}
+
+	#head
+	{
+		}
+		.newcommentbox{
+			width:800px;
+			height:125px;}
+			.head{
+				font-size:24px;}
+			.ui-dialog{
+				width:300px;}
+				#search_box{
+					width:300px;
+					height:21px;}
+					.home_top{
+		width:auto;
+					text-align:right;
+		}
+					.mymenu{
+					height:auto;
+						width:auto;
+						}
+						.mainpage_content
+						{
+							width:700px;
+							background-color:#999999;
+						}
+						.mainpage_photo{
+							height:100px;
+							width:100px;
+							hspace:10px;vspace:10px;
+							
+							}
+						#menu-my{
+							background:#FFF;
+							color:#0073ea;
+							
+							
+							}
+						a.menulink:link{
+							
+							color:#FFF;
+							
+							}
+							.menu_list_table{
+								background:#999;
+						
+								}
+								#error_message{
+									width:inherit;
+									height:inherit;
+									color:#C41502;
+									text-align:left;
+									}
+									#error_message1{
+									width:inherit;
+									height:inherit;
+									color:#C41502;
+									text-align:left;
+									}
+									
+									
+#footer_menu	{
+	margin:0px auto;
+	width:1000px;
+	height:50px;
+}
+									
+
+.red	{
+	color:red;
+}
+
+.green	{
+	color:green;
+}
