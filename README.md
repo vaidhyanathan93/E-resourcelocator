@@ -17,3 +17,6 @@ This is done with the following technologies
 
 IBM WASCE v-2.1
 
+
+Please read SRS.docx file and see the Design of the over all project (IMAGES) to get the over all detail about the project 
+
