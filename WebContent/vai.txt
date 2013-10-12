@@ -1,0 +1,44 @@
+Connection Conn=null, Conn1=null, Conn2=null;
+Statement Stmt=null,Stmt1=null,Stmt2=null;
+ResultSet rs=null,rs1=null,rs2=null;
+
+String query1="Select PROFILETYPE from pradeep.mainlogintable where userid='"+rs.getString("USERID")+"'";
+		
+		
+		 rs1=Stmt1.executeQuery(query1); 
+		 if(rs1.next())
+		 {
+			 String h=rs1.getString("PROFILETYPE");
+			
+			 
+		if(h.equals("1"))	
+		 {
+			 tablename="MENTOR";
+		 }
+		 else if(h.equals("2"))
+		 {
+			 tablename="PUBLICATION";
+		 }
+		 else if(h.equals("3"))
+		 {
+			 tablename="PROFESSOR";
+		 }
+		 else if(h.equals("4"))
+		 {
+			 tablename="TOPPER";
+		 }
+		 else
+		 {
+			 tablename="STUDENT";
+		 }
+		 }
+		System.out.println(tablename);
+	String query2="Select NAME from pradeep.user_"+tablename+" where userid='"+rs.getString("USERID")+"'";
+		System.out.println(query2);
+		
+		 rs2=Stmt2.executeQuery(query2);  
+		 if(rs2.next())
+		 {
+			 String Name=rs2.getString("NAME");
+			 System.out.println(Name);
+		 }
