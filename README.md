@@ -23,4 +23,8 @@ Please read SRS.docx file and see the Design of the over all project (IMAGES) to
 NOTE
 ========
 
-We planned to shift this repo and converted to enterprise level app USing Angularjs and MVC framework
+This project is going oto take next version by 2014 - april 
+
+Updates including
+
+3tier architecure and mobile platforms
