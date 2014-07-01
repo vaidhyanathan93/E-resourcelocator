@@ -27,5 +27,7 @@ This project is going oto take next version by 2014 - april
 
 Updates including
 
+
+
 3tier architecure and mobile platforms
 Web service also planned to included
